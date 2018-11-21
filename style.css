@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("pujc-bg.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	padding : 0px;
+	margin-top:  0px;
+	position: relative;
+	height: 170px;
+}
+.header{
+	
+	margin-left: 97.25px;
+	margin-top: 47.25px;
+	float: left;
+	
+}
+
+.header h1{ margin-left: 95px; margin-top: -90px; color: cadetblue}
+.header img{ height: 110px; width: auto; border: 0px; }
+h1 a{
+	text-decoration: none;
+	color: cadetblue;}
+.search{ float: right;
+	margin-top: 72.25px; margin-right: 175px;}
+input[type=text]{
+	color: white;
+	background-color: white;
+	border: 2px;
+	padding: 12px;
+	width: 240px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius:  50px;
+	font-size: 15px;
+	float: left;
+}
+input[type=submit]{
+	text-align: left;
+	font-size: 15px;
+	font-family: sans-serif ;
+	position: absolute;
+	border: 0px;
+	background-color: black;
+	color: white;
+	padding: 12px;
+	width: 82.2px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius:  50px;
+}
+.nav{ border-bottom: 5px solid #FFA500; background-color: darkgray; margin-top: 15px; margin-left: -8px; margin-right: -8px;}
+.nav ul {list-style:none; margin:0px 0px 0px 80px; padding:20px 20px; z-index: 99; }
+.nav li {float: left; width:155px; background-color:#444444; text-align:center;
+         border-right:1px solid white; position:relative; 
+         height:40px; line-height:40px; margin-top: -20px; }
+.nav li ul li {float:none; width:200px; text-align:left; padding-left:5px; height: 60px;
+         border-top:1px solid white; border-bottom: 0px; margin-left: -15px;}
+.nav a {text-decoration:none; color:white;}
+.nav li ul {position:absolute; top:40px; left:0; visibility:hidden;}
+.nav li:hover ul {visibility:visible; margin-left: -5px; text-overflow: ellipsis;}
+
+.nav li:hover {background-color:orange; overflow: visible;}
+
+.content {clear:both;}
+#id1{width: 85px;}
+#id2{width: 85px;}
+#id3{width: 85px;}
+#id4{width: 180px;}
+#id5{padding-bottom: 30px;text-align:left; text-indent: inherit;}
+.div{
+margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.img{
+	height: 450px;
+	width: 850px;
+}

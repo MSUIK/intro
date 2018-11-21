@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.formset{
+	display: inline-block;
+}
+input[type=text],input[type=password] , input[type=button]
+{
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+}
